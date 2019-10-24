@@ -1,24 +1,16 @@
-# README
+Tindog Database 3.0 ; by Titouan G. & Viktor P.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby 2.5.1 is needed to run this database
+Don't forget to #bundle install before running tests !
 
-Things you may want to cover:
+This program will allow you to check through Tindog's database, here's a little guide to check through it :
 
-* Ruby version
+- $rails console to ignite
 
-* System dependencies
+- put $tp in front of your search to get the result in a nice table ! Using the gem "table print".
 
-* Configuration
+- The databse contain dogs, dogsitters, strolls and cities. Each class goes as follows :
 
-* Database creation
+Dog, DogSitter, Stroll, City
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Exemple of search : $tp Dog.all   > will show you the list of dogs in a nice table
